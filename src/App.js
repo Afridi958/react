@@ -23,6 +23,7 @@ import Employees from "./components/Routing/Employees";
 import Departments from "./components/Routing/Departments";
 import Projects from "./components/Routing/Projects";
 import Fragments from "./components/Fragments";
+import TodoApp from "./components/Workshop-1/My_Todo";
 
 function App() {
   return (
@@ -77,6 +78,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
 
           <Route path="/homerouting" element={<HomeRouting />} />
+          <Route path="todo-list" element={<TodoApp />} />
         </Routes>
       </BrowserRouter>
     </div>

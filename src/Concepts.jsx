@@ -67,6 +67,9 @@ function Concepts() {
               <Link to="/uni-directional" className="concept-links">
                 <li className="table-contents">Uni-Directional Data Flow</li>
               </Link>
+              <Link to="/todo-list" className="concept-links">
+                <li className="table-contents">ToDo-List</li>
+              </Link>
             </ul>
           </div>
         </div>
